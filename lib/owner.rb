@@ -26,5 +26,6 @@ class Owner
     self.all.clear 
   end
   
-  def buy 
+  def buy_cat(cat)
+    @@all
 end
