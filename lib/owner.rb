@@ -44,6 +44,6 @@ class Owner
   end
   
   def walk_dogs
-    
+    self.each {}
   end  
 end
