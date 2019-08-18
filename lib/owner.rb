@@ -15,7 +15,7 @@ class Owner
   end
   
   def cats 
-      
+    []  
   end  
   
   def self.all
