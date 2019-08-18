@@ -27,5 +27,5 @@ class Owner
   end
   
   def buy_cat(cat)
-    @@all
+    @@all[:cat] << cat.new
 end
