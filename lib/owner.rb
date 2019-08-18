@@ -15,7 +15,7 @@ class Owner
   end
   
   def cats 
-    @@all.collect  
+    @@all.collect{|c| } 
   end  
   
   def self.all
