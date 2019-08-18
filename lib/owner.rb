@@ -28,6 +28,6 @@ class Owner
   end
   
   def cats 
-   
+    Cats.all.collect{} 
   end 
 end
