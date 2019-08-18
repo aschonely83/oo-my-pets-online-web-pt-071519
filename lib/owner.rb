@@ -1,5 +1,5 @@
 class Owner
-  attr_accessor :cats, :dog 
+  attr_accessor :cats, :dogs 
   attr_reader :name, :species
   
   @@all = []
@@ -28,6 +28,6 @@ class Owner
   end
   
   def buy_cat(cat)
-    @@all[:cats] << Cat.new(cat)
+    @@pets[:cats] << Cat.new(cat)
   end  
 end
